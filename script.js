@@ -7,7 +7,7 @@ function waitForElement(b){
     if(b == ""){
        setTimeout(waitForElement, 250);
     }else{
-       if(b > 50000) {
+       if(b > 30000) {
        alert("Veteran!");
        }else{
        if(b > 10000) {
@@ -20,9 +20,9 @@ function waitForElement(b){
        alert("Helper!");
        }else{
        if(b > 100) {
-       alert("Newcomer!");
+       alert("Trainee!");
        }else{
-       alert("Untrained!");
+       alert("Newcomer!");
        }
        }
        }
