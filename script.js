@@ -8,21 +8,21 @@ function waitForElement(b){
        setTimeout(waitForElement, 250);
     }else{
        if(b > 50000) {
-       console.log("Veteran!");
+       alert("Veteran!");
        }else{
        if(b > 10000) {
-       console.log("Experienced!");
+       alert("Experienced!");
        }else{
        if(b > 5000) {
-       console.log("Trusty!");
+       alert("Trusty!");
        }else{
        if(b > 1000) {
-       console.log("Helper!");
+       alert("Helper!");
        }else{
        if(b > 100) {
-       console.log("Newcomer!");
+       alert("Newcomer!");
        }else{
-       console.log("Untrained!");
+       alert("Untrained!");
        }
        }
        }
