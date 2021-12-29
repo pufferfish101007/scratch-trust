@@ -19,10 +19,14 @@ function waitForElement(b){
        if(b > 1000) {
        alert("Helper!");
        }else{
+       if(b > 500) {
+       alert("Assistive Trainee!");
+       }else{
        if(b > 100) {
        alert("Trainee!");
        }else{
        alert("Newcomer!");
+       }
        }
        }
        }
