@@ -1,4 +1,5 @@
-function getworth(usernam) {
+function getworth(e, usernam) {
+e.preventDefault();
 fetch("https://scratchdb.lefty.one/v3/forum/user/info/" + usernam)
     .then(response => response.json())
     .then(data => waitForElement(data.counts.total.count))
