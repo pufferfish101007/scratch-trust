@@ -8,24 +8,24 @@ function waitForElement(b){
        setTimeout(waitForElement, 250);
     }else{
        if(b > 30000) {
-       alert(`Veteran! ${b} posts!`);
+       alert(`Veteran - ${b} posts!`);
        }else{
        if(b > 10000) {
-       alert(`Experienced! ${b} posts!`);
+       alert(`Experienced! - ${b} posts!`);
        }else{
        if(b > 5000) {
-       alert(`Trusty! ${b} posts!`);
+       alert(`Trusty - ${b} posts!`);
        }else{
        if(b > 1000) {
-       alert(`Helper! ${b} posts!`);
+       alert(`Helper - ${b} posts!`);
        }else{
        if(b > 500) {
-       alert(`Assistive Trainee! ${b} posts!`);
+       alert(`Assistive Trainee - ${b} posts!`);
        }else{
        if(b > 100) {
-       alert(`Trainee! ${b} posts!`);
+       alert(`Trainee - ${b} posts!`);
        }else{
-       alert(`Newcomer! ${b} posts!`);
+       alert(`Newcomer - ${b} posts!`);
        }
        }
        }
