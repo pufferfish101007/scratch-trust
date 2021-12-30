@@ -41,7 +41,10 @@
 				<div class="page">
 								Welcome to <b>ForumsFeed</b>! ForumsFeed is a simple tool to measure your (or someone else's) level of trustworthyness on the <a href="https://scratch.mit.edu/discuss">Scratch Discussion Forums</a>.
 								<br><br>
-								<input placeholder="Scratch username..." id="username" /> <button onclick="getworth(document.getElementById('username').value)">Measure!</button>
+                                                                <form onsubmit="getworth(event, document.getElementById('username').value)">
+								  <input placeholder="Scratch username..." id="username" />
+								  <button type="submit">Measure!</button>
+								</form>
 								<hr style="border: 1px dotted lightgrey;margin-top:20px;margin-bottom:20px" />
 								<b>How does this work?</b>
 								<br>
