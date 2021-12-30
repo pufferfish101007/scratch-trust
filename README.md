@@ -7,3 +7,6 @@ https://creativecommons.org/licenses/by/4.0/
 
 This means that you can use the code wherever you want, but you have to link the original source.
 
+## Credits
+This project was kindly made by our contributors.
+https://github.com/LankyBox01/scratch-trust/graphs/contributors
